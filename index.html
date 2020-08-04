@@ -4,90 +4,822 @@
 <meta charset = "UTF-8">
 <title>My First Pagee</title>
 <style>
-article
-{
-    padding:5px;
-    margin-top:5px;
+body {
+	height: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+	font-size: 20px;
+	color: #999999;
 }
 
-header
-{
-    padding:0px;
-    text-align:center;
+header {
+	background-color: #fff;
+	height: 64px;
+}
+nav {
+	float: right;
+	
+	
 }
 
-aside
-{
-    margin-top:5px;
-    background-color:#f0eaea;
-    padding:5px;
-    text-align:center;
-    font-style:italic;
-    
+nav a {
+	color: #4A4A4A;
+	font-size: 24px;
+	padding-top: 30px;
+	font-family: Arial, "sans-serif";
+	margin: 10px 24px 0 0px;
+	text-decoration: none;
+	text-align: left;
+	
 }
 
-section
-{
-    padding:5px;
-    background-color:#cccccc;
-    margin-top:5px;
+a {
+	color: #37B6EE;
+	text-decoration: none;
 }
 
-footer
-{
-    padding:5px;
-    text-align:center;
-    font-weight:bold;
+nav a hover {
+	color: #9B9B9B;
+	font-size: 24px;
+	padding-top: 30px;
+	font-family: Arial, "sans-serif";
+	margin: 10px 24px 0 0px;
+	text-decoration: none;
+	text-align: left;
+	
 }
 
-nav
-{
-    text-align:center;
+.navlogo img {
+	height: 62px;
+	width: 62px;
+	margin-left: 24px;
+	padding-right: -10px;
+	
+	
+	
 }
-ul li
-{
-    display:inline;
-    padding-left:5px;
-    padding-right:5px;
-    text-align:left;
-    font-size:16px;
-    font-weight:bold;
+
+.first {
+	font-family: Work Sans;
+	color: #4A4A4A;
+	font-size: 32px;
+	text-align: left;
+	font-weight: 600;
 }
+
+.second {
+	font-family: Work Sans;
+	color: #9B9B9B;
+	font-size: 32px;
+}
+
+section {
+	background-color: #D8D8D8;
+	height: 890px;
+	width: 100%;	
+}
+
+.bannerimg {
+	padding: 32px 24px 32px 24px;
+	margin-left: 24px;
+	margin-right: 24px;	
+	
+}
+
+
+h1 {
+	position: relative;
+    left: 60px;
+	top: 185px;
+	font-size: 60px;
+	font-family: Work Sans, "sans-serif";
+	color: #4A4A4A;
+		
+}
+p {
+	position: relative;
+    left: 60px;
+	top: 185px;
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	
+}
+.button {
+	position: relative;
+    left: 85px;
+	top: 185px;
+	width: 400px;
+	height: 50px;
+	background-color: #4A4A4A;
+	border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor: grab;
+		
+}
+
+.infoimg {
+	padding: 32px 24px 32px 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+	
+	
+	
+}
+
+aside {
+	position: relative;
+	right: 20px;
+	top: -30px;
+	padding: 10px 20px 20px 0px;
+	width: 35%;
+	border-style: solid;
+	border-color: #F3F5F5;
+	float: right;
+}
+
+aside-2 {
+	position: relative;
+	right: 20px;
+	top: -30px;
+	background-color: lightgray;
+	padding: 10px 20px 20px 0px;
+	width: 35%;
+	border-style: solid;
+	border-color: #F3F5F5;
+	float: right;
+}
+
+
+.img-right {
+	left: 80px;
+	padding: 20px;
+	
+}
+
+.info-h {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 190px;
+	font-size: 22px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+	font-weight: 600;
+}
+.info-text {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 110px;
+	font-size: 16px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+}
+
+
+.campus-h {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 235px;
+	font-size: 22px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+	font-weight: 600;
+}
+
+.campus-text {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 80px;
+	font-size: 16px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+}
+
+.guest-h {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 170px;
+	font-size: 22px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+	font-weight: 600;
+}
+
+.guest-text {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 100px;
+	font-size: 16px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+}
+
+article {
+	position: relative;
+	top: 45px;
+	padding: 10px 45px 20px 10px;
+	margin-left: 40px;
+	width: 40%;
+	float: left;
+}
+
+.practice-h {
+	font-family: Work Sans;
+	font-size: 40px;
+	font-weight: 600;
+	color: #4A4A4A;
+	
+}
+
+.section-3 {
+	background-color: #D8D8D8;
+	width: 100%;
+	margin: 850px 0px 0px 0px;
+	height: 1200px;
+	
+}
+
+.learning-h {
+	font-size: 50px;
+	font-family: Work Sans, "sans-serif";
+	color: #4A4A4A;
+	padding: 32px 0px 32px 0px;
+	font-weight: 600;
+	text-align: center;
+}
+
+table {
+	align-content: center;
+}
+
+
+td {
+	padding-right: 32px;
+    padding-left: 32px;
+	margin: 32px 0px 0px 42px;
+	
+}
+
+tr {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.table-h {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 35px;
+	font-weight: 600;
+	background-color: #fff;
+	padding-left: 25px;
+	padding-top: 16px;
+	color: #4A4A4A;
+	
+}
+
+.table-text {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	background-color: #fff;
+	top: -0px;
+	padding-left: 25px;
+	padding-bottom: 35px;
+	
+}
+
+
+
+.vl {
+  border-left: 1px solid #F3F5F5;
+  height: 500px;
+  float: right;
+  width: 40%;  
+  	
+}
+
+.exhibit {
+	background-color: #F3F5F5;
+	height: 920px;
+	padding: 32px 24px 32px 24px;
+	width: 100%;
+	
+	
+}
+
+video {
+	margin: 32px 24px 24px 24px;
+	
+}
+
+.exhibit-h {
+	font-size: 50px;
+	font-family: Work Sans, "sans-serif";
+	color: #4A4A4A;
+	padding: 32px 0px 32px 0px;
+	font-weight: 600;
+	text-align: center;
+	
+}
+
+.video-img-right {
+	top: -200px;
+	left: 80px;
+	padding: 20px;
+	
+}
+
+.aside-3 {
+	position: relative;
+	right: 20px;
+	margin: 34px 24px 34px 24px;
+	background-color: lightgray;
+	padding: 3px 0 18px 0;
+	border-style: solid;
+	border-color: #F3F5F5;
+	float: right;
+	width: 34%;
+}
+
+.aside-4 {
+	position: relative;
+	right: 20px;
+	margin: 34px 24px 34px 24px;
+	padding: -100px 0 20px 0;
+	float: right;
+	width: 34%;
+}
+
+.vid {
+	float: left;
+	margin: 34px 24px 0px 24px;
+	width: 60%;
+	height: 550px;
+}
+
+.vid-h {
+	position: relative;
+	top: 30px;
+	right: -50px;
+	font-size: 22px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+	font-weight: 600;
+}
+
+.vid-text {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 100px;
+	font-size: 16px;
+	color: #4A4A4A;
+	font-family: Work Sans;
+}
+
+.img-right-white {
+	
+	left: 80px;
+	padding: 0px;
+	
+}
+
+footer {
+	background-color: #F3F5F5;
+	width: 100%;
+	height: 64px;
+	margin-top: -10px;
+}
+.ft-text-left {
+	float: left;
+	padding-left: 35px;	
+	padding-top: 20px;
+}
+.ft-text-right {
+	float: right;
+	padding: 30px 25px 0 25px;
+	top: 0px;
+}
+
+/* Media Queries
+-------------------------------------------------------------- */
+	@media only screen and (min-width: 1930px) {
+		.parallax {
+			background-size: cover;
+		}
+	}
+	/* Smaller than standard 1200 */
+	@media only screen and (max-width: 1199px) {
+		.roll-icon-list .list-item {
+			margin-bottom: 18px;
+		}
+		.roll-project.fullwidth .project-item {
+			width: 25%;
+		}
+		.masonry-layout .hentry {
+			width: 455px;
+		}
+	}
+	/* Smaller than standard 980 */
+	@media only screen and (max-width: 991px) {
+		.site-header.fixed {
+			position: static !important;
+		}
+		.parallax {
+			background-size: cover;
+			background-attachment: scroll;
+			background-position: top center!important;
+		}
+		.roll-counter .numb-count {
+			font-size: 24px;
+		}
+		.masonry-layout .hentry {
+			width: 345px;
+		}
+		.header-wrap .col-md-8 {
+			padding: 0;
+		}
+		.last {
+			margin-bottom: 0 !important;
+		}
+		.margin-bottom-device {
+			margin-bottom: 50px;
+		}
+		.margin-top-device {
+			margin-top: 50px;
+		}
+		.content-area .post-wrap,
+		.contact-form-wrap {
+			padding-right: 0;
+		}
+		.contact-form-aside,
+		.sidebar {
+			margin-top: 50px;
+		}
+		.roll-icon-box {
+			margin-bottom: 30px;
+		}
+		.roll-promobox.aside-style,
+		.roll-promobox.aside-style .promo-wrap,
+		.roll-promobox.aside-style .promo-content,
+		.roll-promobox.aside-style .promo-controls {
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+		.roll-promobox.aside-style .title {
+			margin-bottom: 20px;
+		}
+		.roll-project.fullwidth .project-item {
+			width: 33.3%;
+		}
+		.footer-widgets .widget {
+			margin-bottom: 50px;
+		}
+		.text-slider-stopped {
+			top: 70%;
+		}
+	}
+	@media only screen and (max-width: 1024px) {
+		.slides-container .slide-item,
+		.panel-row-style {
+			background-attachment: scroll;
+			background-position: center !important;
+		}
+		.panel-row-style.mob-pad-0 {
+			padding: 0 !important;
+		}
+		.panel-row-style.mob-pad-15 {
+			padding: 15px 0 !important;
+		}
+		.panel-row-style.mob-pad-30 {
+			padding: 30px 0 !important;
+		}
+		.panel-row-style.mob-pad-45 {
+			padding: 45px 0 !important;
+		}
+		#mainnav {
+			display: none;
+		}
+		.btn-menu {
+			display: block;
+		}
+		.site-header {
+			position: static;
+			background-color: rgba(0,0,0,0.9);
+		}
+		.posts-navigation {
+			overflow: hidden;
+			margin-bottom: 30px;
+		}
+	}
+	@media only screen and (max-width: 780px) {
+		.roll-client .client-item img {
+			max-width: 100%;
+  		}
+  		.panel-grid-cell {
+   			padding-left:15px !important;
+    		padding-right:15px !important;
+    		margin-bottom: 15px !important;
+  		}
+		h1 { font-size: 32px;}
+		h2 { font-size: 28px;}
+		h3 { font-size: 22px;}
+		h4 { font-size: 18px;}
+		h5 { font-size: 16px;}
+		h6 { font-size: 14px;}
+	}
+	/* Tablet Landscape */
+	 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		.parallax {
+			background-size: cover;
+			background-attachment: scroll;
+			background-position: top center!important;
+		}
+	}
+	/* All Mobile Sizes */
+	@media only screen and (max-width: 767px) {
+		.posts-layout {
+			max-width: 100%;
+		}
+		.masonry-layout .hentry {
+			width: 100%;
+			margin: 0 0 30px;
+			padding: 0 15px;
+		}
+		.text-slider-section {
+			min-height: 190px;
+		}
+		.text-slider .maintitle {
+			font-size: 32px;
+		    line-height: 1.1;
+		    padding-bottom: 10px;
+		}
+		.text-slider .subtitle {
+		    font-size: 16px;
+		    line-height: 24px;
+		    padding: 15px 0;
+		}
+		.roll-button {
+			padding: 10px 30px;
+		}
+		.roll-project .project-item {
+			width: 100%;
+		}
+		.roll-project.fullwidth .project-item {
+			width: 50%;
+		}
+		.roll-counter {
+			margin-bottom: 50px;
+		}
+		.single-post .author-post .author-avatar {
+			float: none;
+			margin-bottom: 20px;
+		}
+		.single-post .author-post .author-info {
+			margin-left: 0;
+			padding: 0;
+		}
+		.single-post .author-post ul.socials {
+			position: static;
+		}
+		.single-post .author-post .intro {
+			clear: left;
+			padding-top: 10px;
+		}
+		.comment-list .children {
+			margin-left: 75px;
+		}
+		.error-wrap .error-search {
+			padding: 0 20px;
+		}
+		.aside-image .content-wrap {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.social-menu-widget a:before {
+			font-size: 42px;
+		}
+		.btn-menu {
+			float: none;
+			margin: 15px auto 0;
+		}
+		.header-wrap {
+			text-align: center;
+		}
+		#mainnav-mobi {
+			top: auto;
+		}
+		.site-header.float-header {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+        .text-slider-section {
+			min-height: 0;
+			top: auto;
+			bottom: 0;
+		}
+		.site-title {
+			font-size: 22px !important;
+		}
+	}
+	/* Mobile Portrait Size */
+	@media only screen and (max-width: 479px) {
+		.roll-project.fullwidth .project-item {
+			width: 100%;
+		}
+		.blog-post,
+		.service,
+		.sidebar-column {
+			padding: 0;
+		}
+		.roll-button {
+			font-size: 12px;
+		}
+		.text-slider .maintitle {
+			font-size: 20px;
+		}
+		.text-slider .subtitle {
+			font-size: 14px;
+		}
+		.text-slider {
+			margin-bottom: 15px;
+		}
+	}
+	@media only screen and (max-width: 320px) {
+		.text-slider {
+			margin-bottom: 0;
+		}
+	}
     </style>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tracey's Colmar Academy</title>
+<link   rel="stylesheet" id="style-css"  href="style.css" type="text/css" media="all" />
+	
 </head>
-<header><img src="https://prowebavenue.com/wp-content/uploads/2019/05/cropped-home-header-4.jpg" width="100%" alt="ProWebAvenue.com"></header>
+
+<body>
+
+<header>
+<span class="navlogo img"><img src="images/ic-logo.svg" align="center" alt="Colman Academy Logo"/><span class="first">COLMAR</span><span class="second">ACADEMY</span>
+	</span>
 <nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact Us</a></li>
-  </ul>
+  <a href="">On Campus</a> 
+  <a href="">Online</a> 
+  <a href="">Companies</a> 
+  <a href="">Sign In</a>
 </nav>
-  <body><section>
-  <h1>This is a section heading</h1>
-  <p>
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-  </p>
+</header>	
+<section>
+<div class="bannerimg"><img src="images/banner.jpg" align="left" width="60%" height="816" alt="banner"/>
+
+<h1>Learn something<br>
+	new everyday</h1>
+	
+<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+	
+	<a href="https://prowebavenue.com" target="_blank"><button class="button">Start Here</button></a>
+		
+	
+</div>		
+	
 </section>
+<main>
+<div class="infoimg"><img src="images/information-main.jpg" align="left" width="60%" height="60%" alt="Main Image"/></div>
+	
+
+<aside>		
+	<div class="img-right"><img src="images/information-orientation.jpg" align="left"  width="35%" height="20%" alt="Information Orientation"/></div>
+	
+<div class="info-h">Orientation Date</div><br><br>
+	
+<div class="info-text">Tue 10/11 & Wed 10-/12 8am-3pm<br><br>
+		
+		<a href="">Read More</a>
+	
+</div>	
+	
+	
+	
+</aside> 
+
+<aside>		
+	<div class="img-right"><img src="images/information-campus.jpg" align="left" width="35%" height="20%" alt="Information Campus"/></div>
+
+<div class="campus-h">Our Campus</div><br><br>
+	
+<div class="campus-text">Find which campus is close by you.&nbsp;&nbsp;<br><br>
+		
+		<a href="">Read More</a>
+	
+</div>	
+	
+</aside> 
+	
+<aside-2>		
+	<div class="img-right"><img src="images/information-guest-lecture.jpg" align="left" width="35%" height="20%" alt="Information Lecturer"/></div>
+	
+<div class="guest-h">Our Guest Lecturer</div><br><br>
+	
+<div class="guest-text">Join a keynote with Oliver Sack<br> about music in medical treatment.<br><br>
+		
+		<a href="">Read More</a>
+	
+</div>	
+	
+</aside-2> 
+	
 <article>
-  <h1>This is article heading</h1>
-  <p>
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-  </p>
-</article>
-<aside>
-   <p>
-    Hello world! Hello world! Hello world!
-    Hello world! Hello world! Hello world!
-  </p>
-</aside>
+	<div class="practice-h">It doesn't hurt to keep practicing</div><br>
+	"Curabitur vitae livero ipsum portitor consequat. Aligquam et commodo lectus, <br> nec consequat neque. Sed non accumsan uma. Phasellus sed consequat ex. Etiam<br> eget magna laoreet, efficitur dolor consequat, tristique ligul ."<br><br>
+
+Emanuel, Sr Strategist at Hiring.com
+		
+	</article>
+	
+<div class="section-3">
+	
+	<div class="learning-h">Start Learning</div>
+	
+ <table align="center">
+	<tr>
+		<td><img src="images/course-software.jpg" width="472" height="242" alt="Course Software" /><br><div class="table-h">Software engineering</div><div class="table-text"><br>COURSES <br><br>Web Development, Mobile<br>Development, iOT, APIs<br> &nbsp;<br></div></td>
+		<td><img src="images/course-computer-art.jpg" width="472" height="242" alt="Course Computer Art"/><br><div class="table-h">Computer art</div><div class="table-text"><br>COURSES<br><br>Imaging & Design, Web Design<br>Motion Graphics & Visual Effects,<br> Computer Animation</div></td>
+		<td><img src="images/course-design.jpg" width="472" height="242" alt="Course Design"/><br><div class="table-h">Design</div><div class="table-text"><br>COURSES<br><br>User Experience Design, User<br>
+Research, Visual Design<br>&nbsp;</div></td>
+	
+	</tr>
+	 <td><img src="images/course-data.jpg" width="472" height="242" alt="Course Data"/><br><div class="table-h">Data</div><div class="table-text"><br>COURSES <br><br>Data Science, Big Data, SQL,<br>Data Visualization<br> &nbsp;<br></div></td>
+		<td><img src="images/course-business.jpg" width="472" height="242" alt="Course Business"/><br><div class="table-h">Business</div><div class="table-text"><br>COURSES<br><br>Product Development, Business<br>Development, Startup<br>&nbsp;</div></td>
+		<td><img src="images/course-marketing.jpg" width="472" height="242" alt="Course Marketing"/><br><div class="table-h">Marketing</div><div class="table-text"><br>COURSES<br><br>Analytics, Content Marketing,<br> Mobile Marketing<br>
+Research, Visual Design</div></td>
+	 <tr>
+		
+	
+	</tr>
+	
+</table>	
+	
+</div>	
+<div class="exhibit">
+	<div class="exhibit-h">Thesis exhibit</div>
+
+
+	
+<div class="vid"> <iframe width="100%" height="550px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> </div> 
+<div class="aside-3">		
+	<div class="img-right"><img src="images/thesis-fisma.jpg" align="left" width="35%" height="20%" alt="Information Lecturer"/></div>
+	
+<div class="vid-h">Fisma: Designer showcase of <br>new prototype product</div><br>
+	
+<div class="vid-text">Join a keynote with Oliver Sack<br> about music in medical treatment.<br><br>
+		
+		
+	
+</div>	
+	
+</div>
+<div class="aside-4">		
+	<div class="img-right-white"><img src="images/thesis-now-and-then.jpg" align="left" width="35%" height="20%" alt="Information Lecturer"/></div>
+	
+<div class="vid-h">&nbsp; Now and then</div><br>
+	
+<div class="vid-text">Research study about New York.<br><br>
+		
+	
+</div>	
+
+	
+</div>	
+<article>
+	<div class="practice-h">Reimagine urban</div><br>
+	"Curabitur vitae livero ipsum portitor consequat. Aligquam et commodo lectus, <br> nec consequat neque. Sed non accumsan uma. Phasellus sed consequat ex. Etiam<br> eget magna laoreet, efficitur dolor consequat, tristique ligul ."<br><br>
+
+		
+	</article>	
+
+	</div>
+ 	
+	
+</main>	
+	
 <footer>
-  <hr />
-  Copyright (C) 2019. All rights reserved.
-</footer>
+<hr></hr>
+	
+	<div class="ft-text-left">&copy; 2020	Colmar Academy. All rights reserved.</div> <div class="ft-text-right"><a href="">Terms</a> &nbsp; &nbsp;  <a href="">Privacy</a></div>
+	
+</footer>	
 </body>
 </html>
