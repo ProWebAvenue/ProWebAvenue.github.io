@@ -477,12 +477,35 @@ footer {
 	font-size: 25px;
 	}
 	
-
+	a {
+	 text-decoration: none;	
+         color: #0066CC;
+	}
 	
+	a:hover {
+	  color: #DBDBDB;
+	}	
+		
 	.article {
 		background-color: #4A4A4A;
 		width="100%"
 	}
+	
+	.button {
+	
+    width: 100%px;
+    height: 60px;
+    background-color: #9B9B9B;
+    border: none;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: grab;
+		
+}
 	
 table {
   border: 1px solid #ccc;
