@@ -70,11 +70,6 @@ header {
   }
 }
 
-a {
-   text-decoration: none;	
-   color: #0066CC;
-}
-
 
 .logo {
 	height: 62px;
@@ -85,6 +80,11 @@ a {
 	
 	
 }
+
+a {
+	 text-decoration: none;	
+      color: #0066CC;
+	}
 
 .first {
 	font-family: Work Sans;
@@ -498,11 +498,10 @@ footer {
 	
 	.button {
 	
-    width: 300px;
+    width: 350px;
     height: 60px;
     background-color: #9B9B9B;
     border: none;
-    font-family: Work Sans;		
     color: white;
     padding: 20px 40px 20px 40px;
     text-align: center;
