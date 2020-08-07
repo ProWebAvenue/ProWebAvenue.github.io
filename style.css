@@ -594,7 +594,28 @@ table th {
     border-bottom: 0;
   }
 }
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  margin-right: 0px;
+  align-content: center;	
+  
+}
+
+.flex-container > div {
+  
+  width: 472px;
+  margin-left: 30px;	
+  text-align: left;
+  line-height: 30px;
+  background-color: #fff;
+}
 	
+.flex-text {
+  padding-left: 20px
+}  
+  		
 	
 	
 	
