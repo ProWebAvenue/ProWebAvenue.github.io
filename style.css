@@ -92,18 +92,20 @@ a {
 	font-size: 32px;
 	text-align: left;
 	font-weight: 600;
+	padding: 0px;
 }
 
 .second {
 	font-family: Work Sans;
 	color: #9B9B9B;
 	font-size: 32px;
+	padding: 0;
 }
 
 section {
 	background-color: #D8D8D8;
 	height: 910px;
-	background-size: 100% 100%;
+	width: 100%;	
 }
 
 .responsive {
@@ -287,8 +289,7 @@ article {
 
 .section-3 {
 	background-color: #D8D8D8;
-	width: 100%;
-	margin: 850px 0px 0px 0px;
+	margin: 200px 0px 0px 0px;
 	background-size: 100% 100%;
 	
 }
@@ -382,15 +383,7 @@ video {
 }
 
 .aside-3 {
-	position: relative;
-	right: 20px;
-	margin: 34px 24px 34px 24px;
-	background-color: lightgray;
-	padding: 3px 0 18px 0;
-	border-style: solid;
-	border-color: #F3F5F5;
-	float: right;
-	width: 34%;
+	margin-top: 50px;
 }
 
 .aside-4 {
@@ -472,11 +465,80 @@ footer {
 }
 	
 .flex-text {
-    padding-left: 20px
+		padding-left: 20px
 }  
   	
 
+.flex-container-2 {
+           display: -webkit-flex;
+           display: flex;
+           -webkit-flex-direction: row;
+           flex-direction: row;
+           -webkit-align-items: center;
+           align-items: center;
+           
+           flex-wrap: wrap;
+           min-width: 320px;
+           max-width: 1220px;
+        }
+        .flex-item {
+            display:flex;
+        align-items: center;
+        height: 250px;
+        width: 75%;
+        background-color: #fff;
+        border: 1px solid #D8D8D8;
+        margin: 2px 24px 0 35px;
+        padding: 10px 20px 0 20px;
+        }
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+	width: 200px;
+	height: 200px;
+}
+        span {
+            padding-left: 35px;
+        }
 
+
+.flex-container-3 {
+           display: -webkit-flex;
+           display: flex;
+           -webkit-flex-direction: row;
+           flex-direction: row;
+           -webkit-align-items: center;
+           align-items: center;
+           
+           flex-wrap: wrap;
+           min-width: 320px;
+           max-width: 1220px;
+        }
+        .flex-item {
+            display:flex;
+        align-items: center;
+        height: 250px;
+        width: 75%;
+          margin: 2px 24px 0 35px;
+        padding: 10px 20px 0 20px;
+        }
+
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+	width: 200px;
+	height: 200px;
+}
+        span {
+            padding-left: 35px;
+        }
+
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
 
 /* Media Queries
 -------------------------------------------------------------- */
@@ -550,96 +612,4 @@ table {
 table caption {
   font-size: 1.5em;
   margin: ;
-}
-
-table tr {
-  background-color: ;
-  border: 1px solid #ddd;
-  padding: ;
-}
-
-table th,
-table td {
-  padding: ;
-  text-align: center;
-}
-
-table th {
-  font-size: .85em;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-	
-	
-	
-
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-  }
-
-  table caption {
-    font-size: 1.3em;
-  }
-  
-  table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: 5px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  
-  table tr {
-    border-bottom: 3px solid #ddd;
-    display: block;
-    margin-bottom: .625em;
-  }
-  
-  table td {
-    border-bottom: 1px solid #ddd;
-    display: block;
-    font-size: .8em;
-    text-align: center;
-  }
-  
-  table td::before {
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
-    content: attr(data-label);
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  table td:last-child {
-    border-bottom: 0;
-  }
-}
-	
-	
-/* Media Queries
--------------------------------------------------------------- */
-/* Tablet in portrait */
-
-/* On screens that are 992px wide or less, the background color is blue */
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
 }
