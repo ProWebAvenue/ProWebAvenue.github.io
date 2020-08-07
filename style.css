@@ -289,7 +289,7 @@ article {
 	background-color: #D8D8D8;
 	width: 100%;
 	margin: 850px 0px 0px 0px;
-	height: 1200px;
+	background-size: 100% 100%;
 	
 }
 
@@ -453,10 +453,36 @@ footer {
 	top: 0px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  margin-right: 0px;
+  align-content: center;	
+  
+}
+
+.flex-container > div {
+  
+  width: 472px;
+  margin-left: 30px;	
+  text-align: left;
+  line-height: 30px;
+  background-color: #fff;
+}
+	
+.flex-text {
+		padding-left: 20px
+}  
+  	
+
+
 
 /* Media Queries
 -------------------------------------------------------------- */
 /* Tablet in portrait */
+
+
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
@@ -498,7 +524,7 @@ footer {
 	
 	.button {
 	
-    width: 200px;
+    width: 350px;
     height: 60px;
     background-color: #9B9B9B;
     border: none;
@@ -594,58 +620,9 @@ table th {
     border-bottom: 0;
   }
 }
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  margin-left: 200px;
-  margin-right: 0px;
-  align-content: center;	
-  
-}
-
-.flex-container > div {
-  
-  width: 472px;
-  margin-left: 30px;	
-  text-align: left;
-  line-height: 30px;
-  background-color: #fff;
-}
-	
-.flex-text {
-  padding-left: 20px
-}  
-  		
 	
 	
-	
-
-}
-
 /* Media Queries
--------------------------------------------------------------- */
-/* Tablet in portrait */
-
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 992px) {
-  body {
-    	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
-	font-size: 20px;
-	color: #999999;
-  }
-	section {
-	background-color: #D8D8D8;
-	height: autpx;
-	width: 100%;	
-}
-	.bannerimg {
-	padding: 5px;
-	
-	display: none;	
-		
-}
-
-}/* Media Queries
 -------------------------------------------------------------- */
 /* Tablet in portrait */
 
