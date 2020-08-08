@@ -137,8 +137,7 @@ h1 {
 	font-family: "Work Sans SemiBold", "sans-serif";
 	color: #4A4A4A;
 	font-weight: 1000;
-	font-size: 4vw;
-		
+	font-size: 3vw;		
 }
 
 
@@ -148,14 +147,13 @@ h2 {
 	font-family: "Work Sans SemiBold", "sans-serif";
 	color: #4A4A4A;
 	font-weight: 100;
-	font-size: 2vw;
-		
+	font-size: 2vw;	
 }
 
 p {
 	position: relative;
-    top: 185px;
-	font-family: Work Sans, "sans-serif";
+        top: 185px;
+	font-family: "Work Sans", "sans-serif";
 	font-size: 35px;
 	font-size: 2vw;
 	
